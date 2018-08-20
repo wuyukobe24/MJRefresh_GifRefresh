@@ -1,0 +1,772 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01ED8DD4B79530B9A3E8D58B /* libPods-CustomGifRefreshUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 070950A4F4C2785EB3F6B17E /* libPods-CustomGifRefreshUITests.a */; };
+		2D64ABD25F94A10FDD76C205 /* libPods-CustomGifRefresh.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CF01EA1D4BAE904610813E67 /* libPods-CustomGifRefresh.a */; };
+		5C3D9D2D70433DF1971EBA5A /* libPods-CustomGifRefreshTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C8EE4FBE91ED0E9AE43E95C /* libPods-CustomGifRefreshTests.a */; };
+		F13898E6212A5FA60022C732 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F13898E5212A5FA60022C732 /* AppDelegate.m */; };
+		F13898E9212A5FA60022C732 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F13898E8212A5FA60022C732 /* ViewController.m */; };
+		F13898EC212A5FA60022C732 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F13898EA212A5FA60022C732 /* Main.storyboard */; };
+		F13898EE212A5FA90022C732 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F13898ED212A5FA90022C732 /* Assets.xcassets */; };
+		F13898F1212A5FA90022C732 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F13898EF212A5FA90022C732 /* LaunchScreen.storyboard */; };
+		F13898F4212A5FA90022C732 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F13898F3212A5FA90022C732 /* main.m */; };
+		F13898FE212A5FA90022C732 /* CustomGifRefreshTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F13898FD212A5FA90022C732 /* CustomGifRefreshTests.m */; };
+		F1389909212A5FA90022C732 /* CustomGifRefreshUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F1389908212A5FA90022C732 /* CustomGifRefreshUITests.m */; };
+		F1389933212A66540022C732 /* Loading_4@2x.tiff in Resources */ = {isa = PBXBuildFile; fileRef = F138992B212A66540022C732 /* Loading_4@2x.tiff */; };
+		F1389934212A66540022C732 /* Loading_5@2x.tiff in Resources */ = {isa = PBXBuildFile; fileRef = F138992C212A66540022C732 /* Loading_5@2x.tiff */; };
+		F1389935212A66540022C732 /* Loading_7@2x.tiff in Resources */ = {isa = PBXBuildFile; fileRef = F138992D212A66540022C732 /* Loading_7@2x.tiff */; };
+		F1389936212A66540022C732 /* Loading_6@2x.tiff in Resources */ = {isa = PBXBuildFile; fileRef = F138992E212A66540022C732 /* Loading_6@2x.tiff */; };
+		F1389937212A66540022C732 /* Loading_3@2x.tiff in Resources */ = {isa = PBXBuildFile; fileRef = F138992F212A66540022C732 /* Loading_3@2x.tiff */; };
+		F1389938212A66540022C732 /* Loading_2@2x.tiff in Resources */ = {isa = PBXBuildFile; fileRef = F1389930212A66540022C732 /* Loading_2@2x.tiff */; };
+		F1389939212A66540022C732 /* Loading_1@2x.tiff in Resources */ = {isa = PBXBuildFile; fileRef = F1389931212A66540022C732 /* Loading_1@2x.tiff */; };
+		F138993A212A66540022C732 /* Loading_8@2x.tiff in Resources */ = {isa = PBXBuildFile; fileRef = F1389932212A66540022C732 /* Loading_8@2x.tiff */; };
+		F138993D212A6F540022C732 /* CustomGifHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = F138993C212A6F540022C732 /* CustomGifHeader.m */; };
+		F1389940212A901A0022C732 /* CustomGifFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = F138993F212A901A0022C732 /* CustomGifFooter.m */; };
+		F1389984212AA2FF0022C732 /* CustomAutoGifFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = F1389983212AA2FF0022C732 /* CustomAutoGifFooter.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F13898FA212A5FA90022C732 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F13898D9212A5FA60022C732 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F13898E0212A5FA60022C732;
+			remoteInfo = CustomGifRefresh;
+		};
+		F1389905212A5FA90022C732 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F13898D9212A5FA60022C732 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F13898E0212A5FA60022C732;
+			remoteInfo = CustomGifRefresh;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		070950A4F4C2785EB3F6B17E /* libPods-CustomGifRefreshUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CustomGifRefreshUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C969B820128B047443321B8 /* Pods-CustomGifRefresh.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomGifRefresh.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CustomGifRefresh/Pods-CustomGifRefresh.debug.xcconfig"; sourceTree = "<group>"; };
+		3515E4127B04DB2688415894 /* Pods-CustomGifRefreshTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomGifRefreshTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CustomGifRefreshTests/Pods-CustomGifRefreshTests.debug.xcconfig"; sourceTree = "<group>"; };
+		55B1DC7C2C6EC0D91097E95A /* Pods-CustomGifRefreshTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomGifRefreshTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CustomGifRefreshTests/Pods-CustomGifRefreshTests.release.xcconfig"; sourceTree = "<group>"; };
+		6C8EE4FBE91ED0E9AE43E95C /* libPods-CustomGifRefreshTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CustomGifRefreshTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8770EC22E7AC32AA4C8908C7 /* Pods-CustomGifRefresh.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomGifRefresh.release.xcconfig"; path = "Pods/Target Support Files/Pods-CustomGifRefresh/Pods-CustomGifRefresh.release.xcconfig"; sourceTree = "<group>"; };
+		A4A844E494AF4790DAA29958 /* Pods-CustomGifRefreshUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomGifRefreshUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CustomGifRefreshUITests/Pods-CustomGifRefreshUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C29A0C97CD77A7EC3500D6AA /* Pods-CustomGifRefreshUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomGifRefreshUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CustomGifRefreshUITests/Pods-CustomGifRefreshUITests.release.xcconfig"; sourceTree = "<group>"; };
+		CF01EA1D4BAE904610813E67 /* libPods-CustomGifRefresh.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CustomGifRefresh.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F13898E1212A5FA60022C732 /* CustomGifRefresh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomGifRefresh.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F13898E4212A5FA60022C732 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F13898E5212A5FA60022C732 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F13898E7212A5FA60022C732 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F13898E8212A5FA60022C732 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F13898EB212A5FA60022C732 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F13898ED212A5FA90022C732 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F13898F0212A5FA90022C732 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F13898F2212A5FA90022C732 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F13898F3212A5FA90022C732 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F13898F9212A5FA90022C732 /* CustomGifRefreshTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomGifRefreshTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F13898FD212A5FA90022C732 /* CustomGifRefreshTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomGifRefreshTests.m; sourceTree = "<group>"; };
+		F13898FF212A5FA90022C732 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1389904212A5FA90022C732 /* CustomGifRefreshUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomGifRefreshUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1389908212A5FA90022C732 /* CustomGifRefreshUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomGifRefreshUITests.m; sourceTree = "<group>"; };
+		F138990A212A5FA90022C732 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F138992B212A66540022C732 /* Loading_4@2x.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "Loading_4@2x.tiff"; sourceTree = "<group>"; };
+		F138992C212A66540022C732 /* Loading_5@2x.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "Loading_5@2x.tiff"; sourceTree = "<group>"; };
+		F138992D212A66540022C732 /* Loading_7@2x.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "Loading_7@2x.tiff"; sourceTree = "<group>"; };
+		F138992E212A66540022C732 /* Loading_6@2x.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "Loading_6@2x.tiff"; sourceTree = "<group>"; };
+		F138992F212A66540022C732 /* Loading_3@2x.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "Loading_3@2x.tiff"; sourceTree = "<group>"; };
+		F1389930212A66540022C732 /* Loading_2@2x.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "Loading_2@2x.tiff"; sourceTree = "<group>"; };
+		F1389931212A66540022C732 /* Loading_1@2x.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "Loading_1@2x.tiff"; sourceTree = "<group>"; };
+		F1389932212A66540022C732 /* Loading_8@2x.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "Loading_8@2x.tiff"; sourceTree = "<group>"; };
+		F138993B212A6F540022C732 /* CustomGifHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomGifHeader.h; sourceTree = "<group>"; };
+		F138993C212A6F540022C732 /* CustomGifHeader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomGifHeader.m; sourceTree = "<group>"; };
+		F138993E212A901A0022C732 /* CustomGifFooter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomGifFooter.h; sourceTree = "<group>"; };
+		F138993F212A901A0022C732 /* CustomGifFooter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomGifFooter.m; sourceTree = "<group>"; };
+		F1389982212AA2FF0022C732 /* CustomAutoGifFooter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomAutoGifFooter.h; sourceTree = "<group>"; };
+		F1389983212AA2FF0022C732 /* CustomAutoGifFooter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomAutoGifFooter.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F13898DE212A5FA60022C732 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D64ABD25F94A10FDD76C205 /* libPods-CustomGifRefresh.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F13898F6212A5FA90022C732 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C3D9D2D70433DF1971EBA5A /* libPods-CustomGifRefreshTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1389901212A5FA90022C732 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01ED8DD4B79530B9A3E8D58B /* libPods-CustomGifRefreshUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		61D5A8E699DE9140CF07716F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0C969B820128B047443321B8 /* Pods-CustomGifRefresh.debug.xcconfig */,
+				8770EC22E7AC32AA4C8908C7 /* Pods-CustomGifRefresh.release.xcconfig */,
+				3515E4127B04DB2688415894 /* Pods-CustomGifRefreshTests.debug.xcconfig */,
+				55B1DC7C2C6EC0D91097E95A /* Pods-CustomGifRefreshTests.release.xcconfig */,
+				A4A844E494AF4790DAA29958 /* Pods-CustomGifRefreshUITests.debug.xcconfig */,
+				C29A0C97CD77A7EC3500D6AA /* Pods-CustomGifRefreshUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		917F8AEB78CC887A79C2BB11 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CF01EA1D4BAE904610813E67 /* libPods-CustomGifRefresh.a */,
+				6C8EE4FBE91ED0E9AE43E95C /* libPods-CustomGifRefreshTests.a */,
+				070950A4F4C2785EB3F6B17E /* libPods-CustomGifRefreshUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F13898D8212A5FA60022C732 = {
+			isa = PBXGroup;
+			children = (
+				F13898E3212A5FA60022C732 /* CustomGifRefresh */,
+				F13898FC212A5FA90022C732 /* CustomGifRefreshTests */,
+				F1389907212A5FA90022C732 /* CustomGifRefreshUITests */,
+				F13898E2212A5FA60022C732 /* Products */,
+				61D5A8E699DE9140CF07716F /* Pods */,
+				917F8AEB78CC887A79C2BB11 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F13898E2212A5FA60022C732 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F13898E1212A5FA60022C732 /* CustomGifRefresh.app */,
+				F13898F9212A5FA90022C732 /* CustomGifRefreshTests.xctest */,
+				F1389904212A5FA90022C732 /* CustomGifRefreshUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F13898E3212A5FA60022C732 /* CustomGifRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				F13898E4212A5FA60022C732 /* AppDelegate.h */,
+				F13898E5212A5FA60022C732 /* AppDelegate.m */,
+				F13898E7212A5FA60022C732 /* ViewController.h */,
+				F13898E8212A5FA60022C732 /* ViewController.m */,
+				F138993B212A6F540022C732 /* CustomGifHeader.h */,
+				F138993C212A6F540022C732 /* CustomGifHeader.m */,
+				F138993E212A901A0022C732 /* CustomGifFooter.h */,
+				F138993F212A901A0022C732 /* CustomGifFooter.m */,
+				F1389982212AA2FF0022C732 /* CustomAutoGifFooter.h */,
+				F1389983212AA2FF0022C732 /* CustomAutoGifFooter.m */,
+				F138992A212A66540022C732 /* gifImages */,
+				F13898EA212A5FA60022C732 /* Main.storyboard */,
+				F13898ED212A5FA90022C732 /* Assets.xcassets */,
+				F13898EF212A5FA90022C732 /* LaunchScreen.storyboard */,
+				F13898F2212A5FA90022C732 /* Info.plist */,
+				F13898F3212A5FA90022C732 /* main.m */,
+			);
+			path = CustomGifRefresh;
+			sourceTree = "<group>";
+		};
+		F13898FC212A5FA90022C732 /* CustomGifRefreshTests */ = {
+			isa = PBXGroup;
+			children = (
+				F13898FD212A5FA90022C732 /* CustomGifRefreshTests.m */,
+				F13898FF212A5FA90022C732 /* Info.plist */,
+			);
+			path = CustomGifRefreshTests;
+			sourceTree = "<group>";
+		};
+		F1389907212A5FA90022C732 /* CustomGifRefreshUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F1389908212A5FA90022C732 /* CustomGifRefreshUITests.m */,
+				F138990A212A5FA90022C732 /* Info.plist */,
+			);
+			path = CustomGifRefreshUITests;
+			sourceTree = "<group>";
+		};
+		F138992A212A66540022C732 /* gifImages */ = {
+			isa = PBXGroup;
+			children = (
+				F138992B212A66540022C732 /* Loading_4@2x.tiff */,
+				F138992C212A66540022C732 /* Loading_5@2x.tiff */,
+				F138992D212A66540022C732 /* Loading_7@2x.tiff */,
+				F138992E212A66540022C732 /* Loading_6@2x.tiff */,
+				F138992F212A66540022C732 /* Loading_3@2x.tiff */,
+				F1389930212A66540022C732 /* Loading_2@2x.tiff */,
+				F1389931212A66540022C732 /* Loading_1@2x.tiff */,
+				F1389932212A66540022C732 /* Loading_8@2x.tiff */,
+			);
+			path = gifImages;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F13898E0212A5FA60022C732 /* CustomGifRefresh */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F138990D212A5FA90022C732 /* Build configuration list for PBXNativeTarget "CustomGifRefresh" */;
+			buildPhases = (
+				2BBEF34123E89F565D8F2D24 /* [CP] Check Pods Manifest.lock */,
+				F13898DD212A5FA60022C732 /* Sources */,
+				F13898DE212A5FA60022C732 /* Frameworks */,
+				F13898DF212A5FA60022C732 /* Resources */,
+				A892F7E5BECCE2194B40DC7D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CustomGifRefresh;
+			productName = CustomGifRefresh;
+			productReference = F13898E1212A5FA60022C732 /* CustomGifRefresh.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F13898F8212A5FA90022C732 /* CustomGifRefreshTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1389910212A5FA90022C732 /* Build configuration list for PBXNativeTarget "CustomGifRefreshTests" */;
+			buildPhases = (
+				18374C77C72C965DF9D52ADB /* [CP] Check Pods Manifest.lock */,
+				F13898F5212A5FA90022C732 /* Sources */,
+				F13898F6212A5FA90022C732 /* Frameworks */,
+				F13898F7212A5FA90022C732 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F13898FB212A5FA90022C732 /* PBXTargetDependency */,
+			);
+			name = CustomGifRefreshTests;
+			productName = CustomGifRefreshTests;
+			productReference = F13898F9212A5FA90022C732 /* CustomGifRefreshTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F1389903212A5FA90022C732 /* CustomGifRefreshUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1389913212A5FA90022C732 /* Build configuration list for PBXNativeTarget "CustomGifRefreshUITests" */;
+			buildPhases = (
+				BB2969710B73647FEB6FF7E4 /* [CP] Check Pods Manifest.lock */,
+				F1389900212A5FA90022C732 /* Sources */,
+				F1389901212A5FA90022C732 /* Frameworks */,
+				F1389902212A5FA90022C732 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F1389906212A5FA90022C732 /* PBXTargetDependency */,
+			);
+			name = CustomGifRefreshUITests;
+			productName = CustomGifRefreshUITests;
+			productReference = F1389904212A5FA90022C732 /* CustomGifRefreshUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F13898D9212A5FA60022C732 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = JingBei;
+				TargetAttributes = {
+					F13898E0212A5FA60022C732 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					F13898F8212A5FA90022C732 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = F13898E0212A5FA60022C732;
+					};
+					F1389903212A5FA90022C732 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = F13898E0212A5FA60022C732;
+					};
+				};
+			};
+			buildConfigurationList = F13898DC212A5FA60022C732 /* Build configuration list for PBXProject "CustomGifRefresh" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F13898D8212A5FA60022C732;
+			productRefGroup = F13898E2212A5FA60022C732 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F13898E0212A5FA60022C732 /* CustomGifRefresh */,
+				F13898F8212A5FA90022C732 /* CustomGifRefreshTests */,
+				F1389903212A5FA90022C732 /* CustomGifRefreshUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F13898DF212A5FA60022C732 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1389938212A66540022C732 /* Loading_2@2x.tiff in Resources */,
+				F13898F1212A5FA90022C732 /* LaunchScreen.storyboard in Resources */,
+				F138993A212A66540022C732 /* Loading_8@2x.tiff in Resources */,
+				F1389939212A66540022C732 /* Loading_1@2x.tiff in Resources */,
+				F13898EE212A5FA90022C732 /* Assets.xcassets in Resources */,
+				F1389937212A66540022C732 /* Loading_3@2x.tiff in Resources */,
+				F1389935212A66540022C732 /* Loading_7@2x.tiff in Resources */,
+				F13898EC212A5FA60022C732 /* Main.storyboard in Resources */,
+				F1389934212A66540022C732 /* Loading_5@2x.tiff in Resources */,
+				F1389933212A66540022C732 /* Loading_4@2x.tiff in Resources */,
+				F1389936212A66540022C732 /* Loading_6@2x.tiff in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F13898F7212A5FA90022C732 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1389902212A5FA90022C732 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		18374C77C72C965DF9D52ADB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CustomGifRefreshTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2BBEF34123E89F565D8F2D24 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CustomGifRefresh-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A892F7E5BECCE2194B40DC7D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CustomGifRefresh/Pods-CustomGifRefresh-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CustomGifRefresh/Pods-CustomGifRefresh-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BB2969710B73647FEB6FF7E4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CustomGifRefreshUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F13898DD212A5FA60022C732 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F13898E9212A5FA60022C732 /* ViewController.m in Sources */,
+				F13898F4212A5FA90022C732 /* main.m in Sources */,
+				F13898E6212A5FA60022C732 /* AppDelegate.m in Sources */,
+				F1389984212AA2FF0022C732 /* CustomAutoGifFooter.m in Sources */,
+				F1389940212A901A0022C732 /* CustomGifFooter.m in Sources */,
+				F138993D212A6F540022C732 /* CustomGifHeader.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F13898F5212A5FA90022C732 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F13898FE212A5FA90022C732 /* CustomGifRefreshTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1389900212A5FA90022C732 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1389909212A5FA90022C732 /* CustomGifRefreshUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F13898FB212A5FA90022C732 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F13898E0212A5FA60022C732 /* CustomGifRefresh */;
+			targetProxy = F13898FA212A5FA90022C732 /* PBXContainerItemProxy */;
+		};
+		F1389906212A5FA90022C732 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F13898E0212A5FA60022C732 /* CustomGifRefresh */;
+			targetProxy = F1389905212A5FA90022C732 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F13898EA212A5FA60022C732 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F13898EB212A5FA60022C732 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F13898EF212A5FA90022C732 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F13898F0212A5FA90022C732 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F138990B212A5FA90022C732 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F138990C212A5FA90022C732 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F138990E212A5FA90022C732 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C969B820128B047443321B8 /* Pods-CustomGifRefresh.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = UV433VL8PE;
+				INFOPLIST_FILE = CustomGifRefresh/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vczhushou.jingbei;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "95e4757a-11e8-490f-884c-1b8fab54d58f";
+				PROVISIONING_PROFILE_SPECIFIER = DeveloperVCzhushou180403;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F138990F212A5FA90022C732 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8770EC22E7AC32AA4C8908C7 /* Pods-CustomGifRefresh.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = CustomGifRefresh/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vczhushou.jingbei;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F1389911212A5FA90022C732 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3515E4127B04DB2688415894 /* Pods-CustomGifRefreshTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UV433VL8PE;
+				INFOPLIST_FILE = CustomGifRefreshTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.main.CustomGifRefreshTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CustomGifRefresh.app/CustomGifRefresh";
+			};
+			name = Debug;
+		};
+		F1389912212A5FA90022C732 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55B1DC7C2C6EC0D91097E95A /* Pods-CustomGifRefreshTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UV433VL8PE;
+				INFOPLIST_FILE = CustomGifRefreshTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.main.CustomGifRefreshTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CustomGifRefresh.app/CustomGifRefresh";
+			};
+			name = Release;
+		};
+		F1389914212A5FA90022C732 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4A844E494AF4790DAA29958 /* Pods-CustomGifRefreshUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UV433VL8PE;
+				INFOPLIST_FILE = CustomGifRefreshUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.main.CustomGifRefreshUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CustomGifRefresh;
+			};
+			name = Debug;
+		};
+		F1389915212A5FA90022C732 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C29A0C97CD77A7EC3500D6AA /* Pods-CustomGifRefreshUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UV433VL8PE;
+				INFOPLIST_FILE = CustomGifRefreshUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.main.CustomGifRefreshUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CustomGifRefresh;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F13898DC212A5FA60022C732 /* Build configuration list for PBXProject "CustomGifRefresh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F138990B212A5FA90022C732 /* Debug */,
+				F138990C212A5FA90022C732 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F138990D212A5FA90022C732 /* Build configuration list for PBXNativeTarget "CustomGifRefresh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F138990E212A5FA90022C732 /* Debug */,
+				F138990F212A5FA90022C732 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1389910212A5FA90022C732 /* Build configuration list for PBXNativeTarget "CustomGifRefreshTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1389911212A5FA90022C732 /* Debug */,
+				F1389912212A5FA90022C732 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1389913212A5FA90022C732 /* Build configuration list for PBXNativeTarget "CustomGifRefreshUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1389914212A5FA90022C732 /* Debug */,
+				F1389915212A5FA90022C732 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F13898D9212A5FA60022C732 /* Project object */;
+}
